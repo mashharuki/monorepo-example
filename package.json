@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-example",
+  "version": "1.0.0",
+  "description": "monorepo-example",
+  "main": "index.js",
+  "repository": "https://github.com/mashharuki/monorepo-example.git",
+  "author": "mashharuki",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "yarn workspace b start"
+  }
+}
